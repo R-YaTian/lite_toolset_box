@@ -171,7 +171,7 @@ function chatMessage() {
   }
 
   // 特殊的三个图标
-  const arr = ["消息", "联系人", "更多"];
+  const arr = ["消息", "联系人", "空间", "腾讯频道", "游戏", "更多"];
   for (let i = 0; i < arr.length; i++) {
     const areaLabel = arr[i];
     const findLabel = options.sidebar.top.find((el) => el.name === areaLabel);
